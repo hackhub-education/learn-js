@@ -41,3 +41,17 @@ var obj = {
   name: "team",
   members: ["yan", "neo", "anthony"]
 };
+
+// Get element from array by index
+var b = arr[2];
+
+// Get length of a array
+var l = arr.length;
+
+// Insert one element into array
+arr.push("New Variable");
+
+// Change one of the element
+arr[1] = "change";
+
+console.log(arr);
