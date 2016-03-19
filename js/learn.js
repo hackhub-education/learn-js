@@ -64,3 +64,35 @@ obj.members = ["Han", "Calvin", "Iven"];
 obj.project = "Taiji";
 
 // BASIC CALCULATIONS
+
+// basic +, -, *, /, and % on numbers (integer and float)
+a = 1;
+var b = 2.5;
+var c = a + b;
+
+
+// Increment and Decrement
+a += 2; // equals a = a + 2;
+a -= 1; // equals a = a - 1;
+a--; // equals a -= 1;
+a++; // equals a += 1;
+
+// basic operations on string
+var s = "I like";
+var p = ".";
+var r = s + " JavaScript" + p;
+
+// operiations on boolean
+var b = true;
+var t = !b;
+var s = !!"";
+
+// compare, ==, !=, ===, !== output is a boolean type
+var c = 1 == 1; // is true
+var c = 1 != 1; // is false
+var c = 1 === "1"; // is true
+var c = 1 !== "1"; // is false
+var c = 1 > 2; // is false;
+var c = 1 < 2; // is true;
+var c = 1 >= 2; // is false;
+var c = 1 <= 2; // is true;
