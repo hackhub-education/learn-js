@@ -70,7 +70,6 @@ a = 1;
 var b = 2.5;
 var c = a + b;
 
-
 // Increment and Decrement
 a += 2; // equals a = a + 2;
 a -= 1; // equals a = a - 1;
@@ -96,3 +95,28 @@ var c = 1 > 2; // is false;
 var c = 1 < 2; // is true;
 var c = 1 >= 2; // is false;
 var c = 1 <= 2; // is true;
+
+// CONDITION
+
+// condition statements
+a = 1;
+if (a != 1) {
+  console.log(a);
+} else if (a == 1) {
+  console.log("A is one");
+} else {
+  console.log("A is undefined");
+}
+
+// switch statement
+a = 10;
+switch (a) {
+  case 1:
+    console.log("first case");
+    break;
+  case 2:
+    console.log("second case");
+    break;
+  default:
+    console.log("default case");
+}
