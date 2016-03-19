@@ -120,3 +120,62 @@ switch (a) {
   default:
     console.log("default case");
 }
+
+// For loop
+var myLoop = [1, 2, 3, 4, 5];
+
+for (var i = 0; i < myLoop.length; i++) {
+  myLoop[i] ++;
+}
+
+// While loop
+var i = 0;
+while( myLoop != undefined && i < myLoop.length ) {
+  myLoop[i] ++;
+  i++;
+}
+
+var myLoop2 = [2, 3, 4, 5, 6, 9, 10, 20];
+
+function increment(loop) {
+  for (var i = 0; i < loop.length; i++) {
+    loop[i] ++;
+  }
+  return loop;
+}
+
+console.log(increment(myLoop2));
+console.log(increment(myLoop));
+
+// Math
+var rand = Math.round(Math.random() * 10);
+
+function getMaxOfArray(numArray) {
+  return Math.max.apply(null, numArray);
+}
+
+var maxNum = getMaxOfArray(myLoop);
+
+console.log(maxNum);
+
+// Alert
+alert("Yo!");
+var name = prompt("Type your name please");
+var del = confirm("Do you want to add me?");
+
+// Timeout
+setTimeout(function() {
+  clearInterval(heyInterval);
+}, 5000);
+
+// Timeinterval
+var heyInterval = setInterval(function() {
+  console.log("Hey!");
+}, 1000);
+
+
+
+
+
+
+
