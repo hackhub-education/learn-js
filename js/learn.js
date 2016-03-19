@@ -54,4 +54,13 @@ arr.push("New Variable");
 // Change one of the element
 arr[1] = "change";
 
-console.log(arr);
+// Get object value by key
+var y = obj.members[0];
+
+// Change object value
+obj.members = ["Han", "Calvin", "Iven"];
+
+// Add new key value pair
+obj.project = "Taiji";
+
+// BASIC CALCULATIONS
